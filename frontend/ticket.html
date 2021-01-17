@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie | Ticket</title>
+</head>
+
+<body>
+    <div class="container">
+        <form method="post" onsubmit="event.preventDefault(); handleSubmit()">
+            <input required required type="text" name="movieID" id="movieID" placeholder="Enter the ID of movie">
+            <input required required type="text" name="timingID" id="timingID" placeholder="Enter the ID of timing">
+            <input required type="number" name="qty" id="qty" placeholder="Enter the no of tickets to buy">
+            <input required type="submit" value="Buy Ticket">
+        </form>
+    </div>
+    <script src="assets/js/ticket.js"></script>
+</body>
+
+</html>

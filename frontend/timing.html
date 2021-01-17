@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie | Timing</title>
+</head>
+
+<body>
+    <div class="container">
+        <form method="post" onsubmit="event.preventDefault(); handleSubmit()">
+            <input required type="text" name="movieID" id="movieID" placeholder="Enter the ID of movie">
+            <input required type="number" name="total" id="total" placeholder="Enter the total tickets available">
+            <input required type="number" name="price" id="price" placeholder="Enter the ticket price">
+            <input required type="datetime-local" name="timing" id="timing" placeholder="Enter the timing of movie">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="assets/js/timing.js"></script>
+</body>
+
+</html>

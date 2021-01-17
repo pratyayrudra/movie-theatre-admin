@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie | Add</title>
+</head>
+
+<body>
+    <div class="container">
+        <form method="post" onsubmit="event.preventDefault(); handleSubmit()">
+            <input required type="text" name="name" id="name" placeholder="Enter movie name">
+            <input required type="text" name="director" id="director" placeholder="Enter movie director">
+            <input required type="number" name="duration" id="duration" placeholder="Enter movie duration">
+            <textarea required name="description" id="description" cols="30" rows="10"
+                placeholder="Enter movie description"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="assets/js/movies.js"></script>
+</body>
+
+</html>
